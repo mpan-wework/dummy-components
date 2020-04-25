@@ -9,6 +9,8 @@
   },
   "keywords": [],
   "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mpan-wework/dummy-components",
