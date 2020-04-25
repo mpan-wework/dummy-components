@@ -1,0 +1,36 @@
+{
+  "name": "dummy-vue-component",
+  "version": "0.0.1",
+  "description": "Dummy Vue Component",
+  "author": {
+    "name": "Mike Pan",
+    "email": "mike.pan@wework.com",
+    "url": "https://github.com/mpan-wework"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpan-wework/dummy-components",
+    "directory": "packages/vue-component"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "rollup": "^2.7.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  }
+}
