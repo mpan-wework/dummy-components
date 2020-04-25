@@ -1,0 +1,33 @@
+{
+  "name": "dummy-react-component",
+  "version": "0.0.1",
+  "description": "Dummy React Component",
+  "author": {
+    "name": "Mike Pan",
+    "email": "mike.pan@wework.com",
+    "url": "https://github.com/mpan-wework"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpan-wework/dummy-components",
+    "directory": "packages/react-component"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "react": "^16.13.1",
+    "rollup": "^2.7.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
